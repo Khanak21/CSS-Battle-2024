@@ -1,0 +1,107 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.card{
+    width:20vw;
+    height:80vh;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 5px;
+}
+
+.head-1{
+    margin-top: 6rem;
+    margin-left: 1.5rem;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.head-2{
+    margin-top: 5px;
+    margin-left: 1.5rem;
+    font-size: xx-small;
+    font-weight: 400;
+    color:gray;
+}
+
+.card-container{
+   display: flex;
+   height: 60%  ;
+}
+
+.red-card{
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+    height:80%;
+    width:65%;
+    margin-top:2rem;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px red;
+    border: 2px solid red;
+    color:white;
+    
+    
+}
+.image{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    position: relative;
+}
+img{
+    height: 100%;
+    position: absolute;
+    transform: translate(0, -30px);
+}
+.card-text-1{
+    display: flex;
+    justify-content: center;    
+    font-weight: 600;
+}
+.card-text-2{
+    display: flex;
+    justify-content: center;
+    font-size: xx-small;
+    margin-top: 1rem;   
+    opacity: 70%; 
+}
+.red-card-2{
+    background-color: red;
+    height: 80%;
+    width:20%;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 10px red;
+    margin-top: 2rem;
+
+}
+
+.circle{
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    color:white;
+    font-size:larger;
+    font-weight:400;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px red;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: gray;
+}
